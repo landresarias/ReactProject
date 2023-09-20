@@ -1,0 +1,44 @@
+
+.Nav{
+    position: fixed;
+    z-index: 8;
+    width: 90%;
+    height: 55px;
+    background: #33779e;
+    padding: 12px;
+    top: 180px;
+    text-align: center;
+    border-top: 1px solid #fc3838;
+    border-bottom: 1px solid #201f1f; 
+}
+
+.Nav a{
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding: 10px 15px;
+    color: #fff;
+    top: 500px;
+    text-decoration:none;
+    text-align: center;
+    font-family:cursive;
+    transform: translate(-50%, -50%);
+}
+
+.Nav a:hover{
+    color: #ee3d81;
+    cursor: pointer;
+}
+
+.Nav a:active {
+    background-color: #04AA6D;
+}
+
+@media(max-width: 920px) {
+    .Nav a{
+        font-size: 0.8rem;
+    }
+        .Nav a:hover {
+            color: #00f;
+        }
+}
+

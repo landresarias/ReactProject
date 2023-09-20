@@ -1,0 +1,96 @@
+
+#contactForm {
+    width: 390px;
+    height: 330px;
+    background: radial-gradient(circle,rgba(8, 129, 185, 0.7) 30%,
+        rgba(230, 217, 35, 0.7) 100%);
+    position: fixed;
+    z-index: 15;
+    right: 85px;
+    bottom: -275px;
+    padding: 40px;
+    padding-top: 55px;
+    border-radius: 12px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border: 1px solid #333;
+    border-bottom: 0;
+}
+    #emailIcon {
+        width: 50px;
+        float: right;
+        margin-top: -11px;
+        margin-right: -31px;
+        margin-bottom: 13px;
+        border-bottom-left-radius: 16px;
+        border-bottom-right-radius: 16px;
+        cursor: pointer;
+        color:rgba(1, 15, 69, 0.7);
+    }
+    input[type="text"] {
+        width: 100%;
+        padding: 0px 7px;
+        font-weight: 700;
+        font-size: 1.3rem;
+        color: #333;
+        background: #ddd;
+        border: 1px solid #333;
+        border-radius: 4px;
+       
+    }
+    #subject {
+        padding: 0px 7px;
+        font-weight: 700;
+        font-size: 1.3rem;
+        color: #333;
+        background: rgb(240, 233, 175);
+        border: 1px solid #333;
+        border-radius: 4px;
+        width: 100%;
+    }
+    #message {
+        width: 100%;
+        height: 100px;
+        padding: 0px 7px;
+        font-weight: 700;
+        font-size: 1.3rem;
+        color: #333;
+        background: #ddd;
+        border: 1px solid #333;
+        border-radius: 4px;
+        margin-top: 7px;
+    }
+    input[type="submit"] {
+        width: 100%;
+        height: 50px;
+        background: #e74a4a;
+        color: #fff;
+        font-weight: 700;
+        font-size: 1.3rem;
+        border: none;
+        border-radius: 12px;
+        cursor: pointer;
+        border: 1px solid #333;
+    }
+    input[type="submit"]:hover {
+        background: #aaa;
+        color: #222;
+    }
+
+#contactForm2 {
+    width: 390px;
+    height: 330px;
+    background: radial-gradient(circle,rgba(8, 129, 185, 0.8) 30%,
+        rgba(230, 217, 35, 0.8) 100%);
+    position: fixed;
+    z-index: 15;
+    right: 85px;
+    bottom: 0px;
+    padding: 40px;
+    padding-top: 55px;
+    border-radius: 12px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border: 1px solid #333;
+    border-bottom: 0;
+}
